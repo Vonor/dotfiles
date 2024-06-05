@@ -6,7 +6,10 @@
     "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind"
   ],
-  "postCreateCommand": "sudo /workspace/.devcontainer/setup.sh",
+  "postCreateCommand": [
+    "chmod +x /workspace/.devcontainer/setup.sh",
+    "sudo /workspace/.devcontainer/setup.sh"
+  ],
   "remoteUser": "vscode",
   "customizations": {
     "extensions": [
