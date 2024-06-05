@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "takumii.markdowntable",
+    "foxundermoon.shell-format",
+    "timonwong.shellcheck",
+    "eamodio.gitlens",
+    "rogalmic.bash-debug",
+    "formulahendry.code-runner",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "rdnlsmith.linux-themes"
+  ]
+}

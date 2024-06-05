@@ -1,0 +1,20 @@
+{
+  "name": "Bash Scripting",
+  "dockerFile": "Dockerfile",
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind"
+  ],
+  "postCreateCommand": "sudo /workspace/.devcontainer/setup.sh",
+  "remoteUser": "vscode",
+  "customizations": {
+    "extensions": [
+      "rogalmic.bash-debug",
+      "timonwong.shellcheck",
+      "foxundermoon.shell-format",
+      "formulahendry.code-runner",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}

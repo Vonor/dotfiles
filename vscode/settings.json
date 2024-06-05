@@ -1,0 +1,54 @@
+{
+  "locale": "en",
+  "markdownlint.config": {
+    "MD013": false
+  },
+  "files.associations": {
+    "*.sh": "shellscript"
+  },
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'Monaspace Neon Var', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "workbench.colorTheme": "United Ubuntu",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.fetchOnPull": true,
+  "git.postCommitCommand": "push",
+  "terminal.integrated.env.linux": {
+    "LANG": "C",
+    "LC_CTYPE": "UTF-8"
+  },
+  "terminal.integrated.env.osx": {
+    "LANG": "C",
+    "LC_CTYPE": "UTF-8"
+  },
+  "terminal.integrated.defaultLocation": "view",
+  "terminal.integrated.detectLocale": "off",
+  "shellformat.flag": "-s -sr -i 2 -ci",
+  "shellcheck.customArgs": [
+    "-x"
+  ],
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.formatOnType": true
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "redhat.telemetry.enabled": false
+}
